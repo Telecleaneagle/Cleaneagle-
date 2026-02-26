@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--bg:0 0% 6%;--text:0 0% 96%}
+html,body{height:100%}
+body{color:hsl(var(--text));background:hsl(var(--bg))}
+*{box-sizing:border-box}
